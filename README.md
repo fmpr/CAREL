@@ -6,7 +6,7 @@ CAREL is open-source callback-based framework for promoting the flexible evaluat
 
 # Architecture
 
-![Architecture](https://github.com/fmpr/CAREL/framework.png "Architecture")
+![Architecture](https://github.com/fmpr/CAREL/blob/master/framework.png "Architecture")
 
 CAREL is structured into two main objects: the Environment and the Controller. The first allows for the integration with the simulation environment being used through available APIs. It enables the transfer of simulation statistics for the overall experimental assessment and for the synchronous decision making between the controller and the simulation environment. The Controller handles the learning strategy, neural network architecture, reward function, action space and state space described above. In the current Python implementation, the Controller relies on Keras-RL library for all fundamental RL-related capabilities.
 
