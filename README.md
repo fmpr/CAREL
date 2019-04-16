@@ -47,7 +47,7 @@ python results_stats.py scenarions/Single4WayIntersec_RealDemand_base/runs
 
 ## Creating a new scenario
 
-Creating a new scenario in CAREL is very easy. You can exploit the intuitive interface of AIMSUN to build a complex and realistic scenario, and then adapt the RL controller code accordingly. The recommended sequence of steps to create a new scenario is the following:
+Creating a new scenario in CAREL is relatively easy. You can exploit the intuitive interface of AIMSUN to build a complex and realistic scenario, and then adapt the RL controller code accordingly. The recommended sequence of steps to create a new scenario is the following:
 
 - Make a copy the demo scenario folder and use it a starting point
 - Edit the "scenario.ang" in AIMSUN (e.g. if you want to make changes to the road network, include pedestrians pedestrians, etc.). Remember to ensure that the correct "aimsun_interface.py" file is loaded under the tab "Aimsun Next API" of the properties of the Dynamic Scenario object.
