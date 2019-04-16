@@ -1,0 +1,5 @@
+[INPUT]
+SCENARIO_FILE = /home/rodr/code/deep-rl-traffic-lights/scenarios/Single4WayIntersec_RealDemand_base/scenario.ang
+CONFIG_FILE = /home/rodr/code/deep-rl-traffic-lights/scenarios/Single4WayIntersec_RealDemand_base/scenario.conf
+TARGET = 931
+RUN = 10
