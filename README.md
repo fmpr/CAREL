@@ -2,7 +2,7 @@
 
 CAREL is open-source callback-based framework for promoting the flexible evaluation of different deep RL configurations under a traffic simulation environment, as proposed in the paper:
 
-> Rodrigues, F. and Azevedo, C. Towards Robust Deep Reinforcement Learning for Traffic Signal Control: Demand Surges, Incidents and Sensor Failures. ArXiv, April 2019.
+> Rodrigues, F. and Azevedo, C. Towards Robust Deep Reinforcement Learning for Traffic Signal Control: Demand Surges, Incidents and Sensor Failures. In proc. of IEEE Intelligent Transportation Systems Conference (ITSC), 2019.
 
 # Architecture
 

@@ -9,6 +9,8 @@ wget https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.8/hdf5-1.8.11/bin/lin
 tar -xvzf hdf5-1.8.11-linux-x86_64-shared.tar.gz
 sudo pip uninstall h5py
 export LD_LIBRARY_PATH=/home/rodr/hdf5-1.8.11-linux-x86_64-shared/lib:/usr/local/cuda/lib64:
+or
+export LD_LIBRARY_PATH=/home/rodr/hdf5-1.8.11-linux-x86_64-shared/lib:$LD_LIBRARY_PATH
 sudo HDF5_VERSION=1.8.11 HDF5_DIR=/home/rodr/hdf5-1.8.11-linux-x86_64-shared pip install --no-binary=h5py h5py
 
 You can check the installed hdf5 and h5py versions using:
